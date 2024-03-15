@@ -81,27 +81,29 @@ export default function CheckInDetails(){
                         </div>
                         <div>
                             <div className='flex gap-[16px] items-center pb-[16px]'>
-                                <img src='\Images\Icon (3).png' width={32} height={32} alt='garden-icon' />
-                                <div>Garden view</div>
+                                <img src='\Images\Icon (8).png' width={32} height={32} alt='garden-icon' />
+                                <div>Kitchen</div>
                             </div>
                             <div className='flex gap-[16px] items-center pb-[16px]'>
-                                <img src='\Images\Icon (4).png' width={32} height={32} alt='garden-icon' />
-                                <div>Wifi</div>
+                                <img src='\Images\Icon (9).png' width={32} height={32} alt='garden-icon' />
+                                <div>Pets allowed</div>
                             </div>
                             <div className='flex gap-[16px] items-center pb-[16px]'>
-                                <img src='\Images\Icon (5).png' width={32} height={32} alt='garden-icon' />
-                                <div>Free washer - in building</div>
+                                <img src='\Images\Icon (10).png' width={32} height={32} alt='garden-icon' />
+                                <div>Dryer</div>
                             </div>
                             <div className='flex gap-[16px] items-center pb-[16px]'>
-                                <img src='\Images\Icon (6).png' width={32} height={32} alt='garden-icon' />
-                                <div>Central air conditioning</div>
+                                <img src='\Images\Icon (11).png' width={32} height={32} alt='garden-icon' />
+                                <div>Security cameras on property</div>
                             </div>
                             <div className='flex gap-[16px] items-center pb-[16px]'>
-                                <img src='\Images\Icon (7).png' width={32} height={32} alt='garden-icon' />
-                                <div>Refrigerator</div>
+                                <img src='\Images\Icon (12).png' width={32} height={32} alt='garden-icon' />
+                                <div>Bicycles</div>
                             </div>
                         </div>
                     </div>
+                    <div className='border-[#000] border box-border w-fit rounded-[8px] py-[8px] px-[16px] '>show all 37 amenities</div>
+
                 </div>
             </div>
             <div>
