@@ -15,6 +15,20 @@ export default function ReviewCard(){
                     </div>
                 </div>
             </div>
+            <div className='pt-[16px]'>
+                <div className='grid grid-cols-2 border border-[#000-] rounded-[8px] p-[8px]'>
+                    <div>
+                        <div className='text-[10px] font-medium'>CHECK-IN</div>
+                        <div className='text-[#6B7280] text-[14px]'>29/03/2024</div>
+                    </div>
+                    <div>
+                        <div className='text-[10px] font-medium'>CHECK-OUT</div>
+                        <div className='text-[#6B7280] text-[14px]'>29/03/2024</div>
+                    </div>
+                    
+                </div>
+                
+            </div>
         </div>
     )
 }
