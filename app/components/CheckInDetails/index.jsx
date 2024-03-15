@@ -1,5 +1,6 @@
 import React from 'react'
 import ReviewCard from '../ReviewCard'
+import Image from 'next/image'
 
 export default function CheckInDetails(){
     return (
@@ -11,7 +12,7 @@ export default function CheckInDetails(){
                         <div>2 guests . 1 bedroom . 1 bed . 1 bath</div>
                     </div>
                     <div>
-                        <img src='\Images\Avatar.png' alt='avatar' width={56} height={56} />
+                        <Image src='\Images\Avatar.png' alt='avatar' width={56} height={56} />
                     </div>
                 </div>
                 <div className='pt-[40px] border-b-[1px] border-[#000-]'>
