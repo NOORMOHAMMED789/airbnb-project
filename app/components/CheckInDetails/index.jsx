@@ -18,15 +18,15 @@ export default function CheckInDetails(){
                     <div className='flex gap-[16px] pb-[16px]'>
                         <img src='\Images\Icon.png' width={32} height={32} alt='home-icon' className='object-contain' />
                         <div>
-                            <div>Entire home</div>
-                            <div>you'll have apartment to yourself</div>
+                            <div className='text-[#000] text-[14px] font-medium'>Entire home</div>
+                            <div className='text-[#6B7280] text-[14px] font-medium'>you'll have apartment to yourself</div>
                         </div>
                     </div>
                     <div className='flex gap-[16px] pb-[16px]'>
                         <img src='\Images\Icon.png' width={32} height={32} alt='home-icon' className='object-contain' />
                         <div>
-                            <div>Enhanced clean</div>
-                            <div>This Host commited to Airbnb's 5-step enhanced cleaning process.
+                            <div className='text-[#000] text-[14px] font-medium'>Enhanced clean</div>
+                            <div  className='text-[#6B7280] text-[14px] font-medium'>This Host commited to Airbnb's 5-step enhanced cleaning process.
                                 <span className='underline'>show more</span>
                             </div>
                         </div>
@@ -34,19 +34,20 @@ export default function CheckInDetails(){
                     <div className='flex gap-[16px] pb-[16px]'>
                         <img src='\Images\Icon (1).png' width={32} height={32} alt='home-icon' className='object-contain' />
                         <div>
-                            <div>self check-in</div>
-                            <div>Check yourself in with the keyboard</div>
+                            <div className='text-[#000] text-[14px] font-medium'>self check-in</div>
+                            <div className='text-[#6B7280] text-[14px] font-medium'>Check yourself in with the keyboard</div>
                         </div>
                     </div>
-                    <div className='flex gap-[16px] pb-[16px]'>
+                    <div className='flex  items-center gap-[16px] pb-[16px]'>
                         <img src='\Images\calendar.png' width={32} height={32} alt='home-icon' className='object-contain' />
-                        <div>
+                        <div  className='text-[#6B7280] text-[14px] font-medium' >
                             Free cancellation before 14 feb
                         </div>
                     </div>
                 </div>
                 <div className='pt-[40px] border-b-[1px] border-[#000-] pb-[40px]'>
                     Come and stay in this superb duplex T2, in the heart of the historic center of Bordeaux. Spacious and bright, in a real Bordeaux building in exposed stone, you will enjoy all the charms of the city thanks to its ideal location. Close to many shops, bars and restaurants, you can access the apartment by tram A and C and bus routes 27 and 44. ...
+                    <div className='underline pt-[24px]'>{"show more >"}</div>
                 </div>
                 <div className='py-[40px] border-b-[1px] border-[#000-]'>
                     <div className='pb-[24px]'>Where you'll sleep</div>
