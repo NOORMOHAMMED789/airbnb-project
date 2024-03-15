@@ -1,5 +1,6 @@
 import Reviews from "./components/Reviews";
 import ImageGallary from "./components/ImageGallary";
+import CheckInDetails from "./components/CheckInDetails";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
         tags="Superhost"
         place="Bordeaux, France"
       />
-      <div className="pt-[40px]">
+      <div className="pt-[40px] pb-[40px]">
         <ImageGallary />
       </div>
+      <CheckInDetails />
     </div>
   );
 }
