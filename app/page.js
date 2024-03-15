@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Reviews from "./components/Reviews";
+import ImageGallary from "./components/ImageGallary";
 
 export default function Home() {
   return (
@@ -11,6 +11,9 @@ export default function Home() {
         tags="Superhost"
         place="Bordeaux, France"
       />
+      <div className="pt-[40px]">
+        <ImageGallary />
+      </div>
     </div>
   );
 }
