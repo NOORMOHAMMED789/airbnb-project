@@ -54,6 +54,55 @@ export default function CheckInDetails(){
                     <div>Bedroom</div>
                     <div>1 queen bed</div>
                 </div>
+                <div className='py-[40px] border-b-[1px] border-[#000-]'>
+                    <div className='pb-[32px]'>What this place offers</div>
+                    <div className='flex gap-[24px]'>
+                        <div className='w-[323px]'>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (3).png' width={32} height={32} alt='garden-icon' />
+                                <div>Garden view</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (4).png' width={32} height={32} alt='garden-icon' />
+                                <div>Wifi</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (5).png' width={32} height={32} alt='garden-icon' />
+                                <div>Free washer - in building</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (6).png' width={32} height={32} alt='garden-icon' />
+                                <div>Central air conditioning</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (7).png' width={32} height={32} alt='garden-icon' />
+                                <div>Refrigerator</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (3).png' width={32} height={32} alt='garden-icon' />
+                                <div>Garden view</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (4).png' width={32} height={32} alt='garden-icon' />
+                                <div>Wifi</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (5).png' width={32} height={32} alt='garden-icon' />
+                                <div>Free washer - in building</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (6).png' width={32} height={32} alt='garden-icon' />
+                                <div>Central air conditioning</div>
+                            </div>
+                            <div className='flex gap-[16px] items-center pb-[16px]'>
+                                <img src='\Images\Icon (7).png' width={32} height={32} alt='garden-icon' />
+                                <div>Refrigerator</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <ReviewCard />
