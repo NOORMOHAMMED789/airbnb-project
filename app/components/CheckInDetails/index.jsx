@@ -46,7 +46,7 @@ export default function CheckInDetails() {
                 Enhanced clean
               </div>
               <div className="text-[#6B7280] text-[14px] font-medium">
-                This Host commited to Airbnb's 5-step enhanced cleaning process.
+                This Host commited to Airbnbs 5-step enhanced cleaning process.
                 <span className="underline">show more</span>
               </div>
             </div>
