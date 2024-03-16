@@ -90,7 +90,7 @@ export default function CheckInDetails() {
           <div className="underline pt-[24px]">{"show more >"}</div>
         </div>
         <div className="py-[40px] border-b-[1px] border-[#000-]">
-          <div className="pb-[24px]">Where you'll sleep</div>
+          <div className="pb-[24px]">Where youll sleep</div>
           <img
             src="\Images\Rectangle.png"
             width={320}
