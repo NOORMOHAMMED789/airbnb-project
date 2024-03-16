@@ -97,8 +97,8 @@ export default function CheckInDetails() {
             height={212}
             alt="home-image"
           />
-          <div>Bedroom</div>
-          <div>1 queen bed</div>
+          <div className="text-[14px] text-[#000] font-normal">Bedroom</div>
+          <div className="text-[14px] text-[#000] font-normal">1 queen bed</div>
         </div>
         <div className="py-[40px] border-b-[1px] border-[#000-]">
           <div className="pb-[32px]">What this place offers</div>
